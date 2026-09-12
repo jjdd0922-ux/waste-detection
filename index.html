@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Waste Classifier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1> Waste Classifier</h1>
+    <p>Classify your waste into E-waste, Plastic or Metal</p>
+</header>
+
+<section class="classifier">
+    <h2>Upload Waste Image</h2>
+
+    <input type="file" id="imageInput" accept="image/*">
+
+    <br><br>
+
+    <button onclick="classifyWaste()">Classify Waste</button>
+
+    <h2 id="result"></h2>
+</section>
+
+<section class="info">
+    <div>
+        <h2> E-waste</h2>
+        <p>Mobile, keyboard, mouse, and other e-waste.</p>
+    </div>
+
+    <div>
+        <h2> Plastic</h2>
+        <p>Plastic bottles, plastics cup, and other plastic waste.</p>
+    </div>
+
+    <div>
+        <h2> Metal</h2>
+        <p>Iron, aluminium, steel and other recyclable metal waste.</p>
+    </div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
