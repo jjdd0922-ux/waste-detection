@@ -1,0 +1,2 @@
+# waste-detection
+waste classification
