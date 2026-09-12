@@ -1,5 +1,6 @@
 # Waste-Detection
 Waste classification
+
 In this project I am using 3 different types of waste materials these are:-
 1) E-waste
 2) Plastics
